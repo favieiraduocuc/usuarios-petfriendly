@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  usuarios:
+    build: .
+    ports:
+      - "8080:8080"
+    container_name: usuarios-petfriendly
+    volumes:
+      - ./wallet:/app/wallet
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+      - TNS_ADMIN=/app/wallet
+
+      

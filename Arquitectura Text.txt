@@ -1,0 +1,39 @@
+usuarios-petfriendly/
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── petfriendly/
+│   │   │           ├── UsuariosPetfriendlyApplication.java
+│   │   │           ├── controller/
+│   │   │           │   └── EnvioController.java
+│   │   │           ├── dto/
+│   │   │           │   └── EnvioDTO.java
+│   │   │           ├── entity/
+│   │   │           │   └── Envio.java
+│   │   │           ├── exception/
+│   │   │           │   ├── GlobalExceptionHandler.java
+│   │   │           │   └── RecursoNoEncontradoException.java
+│   │   │           ├── repository/
+│   │   │           │   └── EnvioRepository.java
+│   │   │           └── service/
+│   │   │               └── EnvioService.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       ├── HS_Mysql_schema_database.sql
+│   │       └── HS_Oracle_schema_database.sql
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── petfriendly/
+│                   └── UsuariosPetfriendlyApplicationTests.java
+├── target/
+│   ├── generated-sources/
+│   │   └── annotations/
+│   └── generated-test-sources/
+│       └── test-annotations/
+└── .gitignore
